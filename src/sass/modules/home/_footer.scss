@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+footer{
+    height: 10vh;
+    width:100vw;
+    margin-top: 15px;
+    background-color:$black-foot;
+    div{
+        color: white;
+        font-size: 10px;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        
+    }
+}
+

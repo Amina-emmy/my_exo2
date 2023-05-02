@@ -1,0 +1,21 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+@font-face {
+    font-family: "big-title";
+    src: url("../../public/fonts/Comme-Bold.ttf");
+}
+@font-face {
+    font-family: "mini-title";
+    src: url("../../public/fonts/Comme-Regular.ttf");
+}
+$blue-nav: #00004C;
+$blue: #0000FF;
+$pink: #EE0979;
+$black-foot : #000000;
+
+$custom-colors : (
+    "blue":$blue,
+    "pink":$pink,
+);
+$theme-colors : map-merge($theme-colors , $custom-colors);

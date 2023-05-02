@@ -1,0 +1,57 @@
+//? the presentation 
+.present{
+    width:100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .t1{
+        color: white;
+        font-size: 60px;
+        font-family: "big-title";
+    }
+    .t2{
+        color: white;
+        font-size: 35px;
+        font-family: "big-title";
+    }
+    button{
+        background-color: $pink;
+        color:white;
+        font-size: 10px;
+        border: none;
+        width: 140px;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+}
+//? image and its text 
+.pic_text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    gap: 70px;
+    margin-top: 50px;
+    h2{
+        font-size: 36px;
+        font-family: "big-title";
+        font-weight: bolder;
+    }
+    p{
+        font-family: "mini-title";
+        font-size: 10px;
+    }
+    img{
+        width:300px;
+        border-radius: 50%;
+    }
+}
+.sous_div{
+    width:25%;
+}
+
+
+

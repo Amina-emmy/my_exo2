@@ -1,0 +1,41 @@
+header{
+    height:9vh;
+    width:100vw;
+    background-color: $blue-nav;
+}
+nav{
+    color: white;
+    height: 100%;
+    width: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    h2{
+        font-size: 15px;
+        font-family:"big-title";
+        a{
+            color: white;
+            text-decoration:none; 
+        }
+    }
+}
+.links {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    a{
+        color: white;
+        text-decoration:none;
+        font-family:"mini-title";
+        font-size: 12px;
+    }
+}
+@media (min-width : 375px) and (max-width : 425px){
+    header{
+        height:9vh;
+        width:100vw;
+        background-color: $blue-nav;
+    }
+
+}
